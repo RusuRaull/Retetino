@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/index.css">
+    </link>
+    <link rel="icon" type="image/x-icon" href="../imagini/favicon.jpeg">
+    <title>Mojito</title>
+</head>
+
+<body>
+    <header>
+        <div class="stanga"><a href="../index.html" class="casuta"><i class="fa fa-home"></i></a>
+            <a href="../calc.html" class="calc"><i class="fa fa-calculator"></i></a>
+        </div>
+        <div class="logo">Rețetino</div>
+        <div class="dropdown">
+            <button class="dropbtn">Băuturi</button>
+            <div class="dropdown-content">
+                <a href="../trending.html">Trending</a>
+                <a href="../pizzapaste.html">Pizza și paste</a>
+                <a href="../vegetariene.html">Vegetariene</a>
+                <a href="../vegane.html">Vegane</a>
+                <a href="../deserturi.html">Deserturi</a>
+                <a href="../traditionale.html">Tradiționale</a>
+                <a href="../retetepui.html">Rețete pui</a>
+            </div>
+        </div>
+    </header>
+    <div class="retetaprac">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/WJmICr7yG_k?si=p2jaUW2srBrFoO_c" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div class="detalii-reteta">
+        <div class="ing">
+            <h2>Ingrediente necesare</h2>
+            <ul>
+                <li>60ml Rom</li>
+                <li>15ml sirop de zahăr</li>
+                <li>1/2 lime</li>
+                <li>7-8 frunze de mentă</li>
+                <li>Un splash de apă minerală</li>
+                <li>Gheață</li>
+            </ul>
+            
+            <h2>Mod de preparare</h2>
+            <ol>
+                <li>Pregătește paharul și adaugă frunzele de mentă, zdrobindu-le ușor pentru a elibera aromele.</li>
+                <li>Stoarce jumătatea de lime și adaugă sucul în pahar.</li>
+                <li>Adaugă siropul de zahăr și romul în pahar.</li>
+                <li>Completează cu gheață, apoi adaugă un splash de apă minerală.</li>
+                <li>Amestecă ușor ingredientele pentru a combina aromele.</li>
+            </ol>
+            
+            <h2>Macronutrienți per porție (1 porție)</h2>
+            <ul>
+                <li>Calorii: 180 kcal</li>
+                <li>Carbohidrați: 16g</li>
+                <li>Proteine: 0g</li>
+                <li>Grăsimi: 0g</li>
+            </ul>
+            
+        </div>
+
+        <div class="formular">
+            <h2>Introduceți valorile pentru produs</h2>
+            <form id="form-calitate">
+                <label for="proteine">Proteine (g):</label>
+                <input type="number" id="proteine" name="proteine" required><br><br>
+
+                <label for="carbohidrati">Carbohidrați (g):</label>
+                <input type="number" id="carbohidrati" name="carbohidrati" required><br><br>
+
+                <label for="grasimi">Grăsimi (g):</label>
+                <input type="number" id="grasimi" name="grasimi" required><br><br>
+
+                <label for="calorii">Total Calorii:</label>
+                <input type="number" id="calorii" name="calorii" required><br><br>
+
+                <button type="submit">Calculează Calitatea</button>
+            </form>
+        </div>
+
+
+
+        <div class="indice-calitate">
+            <h2>Indice de Calitate</h2>
+            <p>Calitatea acestui produs, bazată pe raportul dintre macronutrienți:</p>
+            <div class="bara-calitate">
+                <div class="indicator"></div>
+            </div>
+            <p class="calitate-text">Moderată</p>
+        </div>
+
+    </div>
+
+
+    <footer>
+        <div class="info">
+            <div class="txt">Pentru mai multe retete:</div>
+            <a href="https://www.instagram.com/r.u.s.u_r.a.u.l/"><img src="../imagini/Instagram.png" class="ig"></a>
+            <div class="nume"><a href="https://www.instagram.com/r.u.s.u_r.a.u.l/">Rusu Raul</a></div>
+        </div>
+    </footer>
+    <a href="index.html" class="scroll-arrow"></a>
+    <script src="../script.js"></script>
+</body>
+
+</html>
